@@ -10,11 +10,20 @@ public class Loop {
 
         a=1000;
         while (a>=0){
-            if((a%2)==0){
+            if(a % 2==0){
                 System.out.println(a);
             }
             a--;
         }
+
+        int i=0;
+        float midle=0F;
+        while(i<=100){
+            midle+=i;
+            i++;
+        }
+        midle/=(float) i;
+        System.out.println(midle);
 
     }
 }
